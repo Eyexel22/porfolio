@@ -57,7 +57,7 @@ toTopBtn.addEventListener('click', () => {
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// ----- Hero terminal typewriter (signature moment) -----
+// ----- Hero ledger status line (signature moment) -----
 const terminalEl = document.getElementById('terminalLine');
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const terminalMessage = 'currently building: profit_radar.system';
